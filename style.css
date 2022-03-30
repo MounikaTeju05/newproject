@@ -2,9 +2,33 @@
     display:block;
     text-align:center;
     font-size: 100px;
+    background-color:aliceblue;
+    border-radius: 30px;
+}
+#countLabel:hover{
+    color:burlywood;
+    border-radius: 60px;
 }
 .container{
     display:block;
     text-align: center;
     font-size: 20px;
+    padding:150px;
+    border-radius: 50%;
+    background-color: darkgray;
+}
+button{
+    border-radius: 30px;
+}
+button:hover{
+    color:black;
+    border-radius: 50px;
+    border-color: rgb(100, 59, 12);
+    border-width: 5px;
+    text-decoration-style: dotted;
+}
+.idea{
+    color:brown;
+    text-decoration:underline;
+    text-transform:capitalize;
 }
